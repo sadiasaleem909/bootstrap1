@@ -1,0 +1,14 @@
+:root{
+    --primary :#263238;
+    --greencolor : #4CAF4F;
+
+}
+.blackcolor{
+    color: var(--primary);
+}
+.textgreen{
+    color: var(--greencolor);
+}
+.bggreen{
+    background: var(--greencolor);
+}
