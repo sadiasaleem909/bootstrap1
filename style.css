@@ -1,8 +1,13 @@
 :root{
     --primary :#263238;
     --greencolor : #4CAF4F;
-
+    --maincolor :#F5F7FA;
 }
+@font-face {
+    font-family: inter;
+    src: url(./fonts/Inter_18pt-SemiBold.ttf);
+}
+
 .blackcolor{
     color: var(--primary);
 }
@@ -11,4 +16,33 @@
 }
 .bggreen{
     background: var(--greencolor);
+    color: aliceblue;
+}
+.navbar{
+    background: var(--maincolor);
+}
+.greentext{
+    color: var(--greencolor) !important;
+}
+.text{
+    font-family: inter;
+}
+.button-color{
+    background: var(--greencolor);
+}
+.hero{
+    background: var(--maincolor);
+    width: 100%;
+}
+.customgap{
+    gap: 105px;
+}
+.clienttext{
+    font-family: inter;
+}
+.manageh1{
+    font-family: inter;
+}
+.manageh1-2{
+    font-family: inter;
 }
