@@ -113,7 +113,14 @@
     width: 60%;
     /* gap: 110px; */
 }
+.btndemo{
+    width: 25%;
+     background: var(--greencolor);
+     padding: 15px 40px;
+     outline: none;
+     border: none;
 
+}
 
 
 
@@ -142,9 +149,7 @@
     justify-content: center;
     align-items: center;
    }
-   .h5size{
-    
-   }
+  
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
