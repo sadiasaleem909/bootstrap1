@@ -34,15 +34,123 @@
     background: var(--maincolor);
     width: 100%;
 }
-.customgap{
-    gap: 105px;
+.clienth1{
+    color: var(--headingcolor) !important;
+    font-family: Inter;
 }
-.clienttext{
-    font-family: inter;
+
+.clientp{
+    color: var(--textcolor);
 }
-.manageh1{
-    font-family: inter;
+.gapbadges{
+    gap: 100px !important;
 }
-.manageh1-2{
-    font-family: inter;
+
+
+.card-title{
+    font-family: Inter;
+    color: var(--headingcolor) !important;
+}
+.card-text{
+    color: var(--textcolor);
+}
+.cards{
+    border: none;
+   box-shadow: 0px 2px 4px 0px #ABBED133;
+
+}
+.fontfamily{
+    font-family: Inter;
+}
+
+
+.fontweight{
+    font-size: 36px;
+}
+/* client end */
+
+.featurebg{
+    background: var(--bgcolor);
+    padding-bottom: 60px  !important;
+}
+
+
+.demo{
+    color: #263238;
+    font-family: Inter;
+}
+
+
+.btnsize{
+    width: 15%;
+}
+
+
+
+
+
+.footerbg{
+    background: #263238;
+  padding: 10px 0px;
+}
+
+.footerp{
+    color: #F5F7FA !important;
+    font-size: 14px;
+}
+.inputbg{
+    background-color: #515b60 !important;
+
+}
+.inputbg::placeholder{
+    color: white !important;
+}
+.footerlogo{
+    width: 40%;
+   
+}
+.footercols{
+    width: 60%;
+    /* gap: 110px; */
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .size{
+        width: 50%;
+    }
+    .btnsize{
+        width: 55%;
+    }
+    
+   .footerlogo{
+    width: 100%;
+     justify-content: center;
+    align-items: center;
+   }
+   .footerlogo p{
+    text-align: center;
+   }
+   .footercols{
+    width: 100%;
+    flex-direction: column; 
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+   }
+   .h5size{
+    
+   }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+   
+    .btnsize{
+        width: 25%;
+    }
+   
 }
